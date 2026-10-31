@@ -7,10 +7,10 @@ This owned fork supplies the prebuilt `ImsService` APK, two runtime resource ove
 Use the project's pinned Android local manifest where available. For a standalone source checkout:
 
 ```sh
-git clone --branch lineage-23.2 https://github.com/cmdr-chara/android_vendor_mediatek_ims vendor/mediatek/ims
+git clone --branch lineage-24.0 https://github.com/malachite-project/android_vendor_mediatek_ims vendor/mediatek/ims
 ```
 
-A branch moves. Record the reviewed commit in the coordinated workspace lock and capture `repo manifest -r` for each build. Review candidates may be on `revival/*` branches until their PRs are integrated.
+The device tree's local manifests select this repository (`lineage-24.0`; `crdroid-17.0` for crDroid), and every build records the exact commit in its source ID.
 
 In the device product:
 
