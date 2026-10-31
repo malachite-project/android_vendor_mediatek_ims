@@ -10,7 +10,7 @@ Use the project's pinned Android local manifest where available. For a standalon
 git clone --branch lineage-24.0 https://github.com/malachite-project/android_vendor_mediatek_ims vendor/mediatek/ims
 ```
 
-The device tree's local manifests select this repository (`lineage-24.0`; `crdroid-17.0` for crDroid), and every build records the exact commit in its source ID.
+The device tree's local manifests select this repository (`lineage-24.0`; `crdroid-17.0` for crDroid); a build made with a source snapshot records the exact commit (see the device tree README).
 
 In the device product:
 
